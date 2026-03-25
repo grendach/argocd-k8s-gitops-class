@@ -32,7 +32,7 @@
 * In the terminal, run the following:
 
   ```bash
-  wget https://github.com/kubernetes-sigs/kind/releases/download/v0.18.0/kind-linux-amd64
+  wget https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-amd64
   sudo mv kind-linux-amd64 /usr/local/bin/kind
   sudo chmod +x /usr/local/bin/kind
   kind version
