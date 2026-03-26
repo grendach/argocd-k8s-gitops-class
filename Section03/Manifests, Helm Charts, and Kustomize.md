@@ -42,7 +42,7 @@
 * ```bash
   cd ..
   mkdir base
-  cp ../manifests/deployment.yaml ../manifests/service.yaml base
+  cp manifests/deployment.yaml manifests/service.yaml base
   cd base
   vim kustomization.yaml
   ```
