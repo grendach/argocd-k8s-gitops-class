@@ -62,6 +62,6 @@ git push --set-upstream origin feature/increase-replicas
 Go to Gitlab by copying the link from the output message of the above command. Approve and merge the MR.
 Go back to the terminal and run the following:
 ```bash
-argocd app sync nginx
+argocd app sync nginx --port-forward --port-forward-namespace argocd --plaintext
 kubectl get pods
 ```
